@@ -1,4 +1,4 @@
-<img src="https://github.com/contiki-ng/contiki-ng.github.io/blob/master/images/logo/Contiki_logo_2RGB.png" alt="Logo" width="256">
+New RPL Objective Function for Urban Mobility Applications. Test examples using real mobility traces can be found at "examples/rpl-udp-mvmt".
 
 # Contiki-NG: The OS for Next Generation IoT Devices
 
