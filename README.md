@@ -6,15 +6,14 @@ This repository contains the implementation of PMA-OF for Contiki-NG. The test s
 
 ## Overview
 
-PMA-OF introduces additional link metrics based on the temporal variation of RSSI values.
-
-These metrics are used by the RPL Objective Function to favor parents with more stable link behavior, reducing frequent parent switching and improving route stability.
+PMA-OF leverages additional link metrics based on the temporal variation of RSSI values to favor parents with more stable link behavior, reducing frequent parent switching and improving route stability.
 
 ## Problem
 
-In RPL-based IoT networks, route stability can degrade significantly when nodes are mobile, particularly in dense urban environments where wireless link quality fluctuates rapidly.
-
-Traditional RPL objective functions rely on instantaneous link metrics and therefore react only after link degradation occurs.
+RPL is the standard routing solution for Internet of Things
+(IoT) networks. However, the inclusion of mobile devices into such net-
+works poses a challenge, as RPL does not support node mobility,
+resulting in route instability and data packet loss.
 
 ## Repository Structure
 
@@ -41,4 +40,4 @@ SBrT – Simpósio Brasileiro de Telecomunicações, 2024.
 
 ## Platform
 
-This project is implemented on top of Contiki-NG, an open-source operating system for IoT devices.
+This project is implemented on top of Contiki-NG (https://github.com/contiki-ng/contiki-ng), an open-source operating system for IoT devices.
